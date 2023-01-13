@@ -1,0 +1,133 @@
+﻿/*..Fedback Start here..*/
+.FeedbackBox {
+    position: fixed;
+    bottom: -190px;
+    right: 20px;
+    height: 190px;
+    background: #454D59;
+    -webkit-box-shadow: -3px 0 10px 0 rgba(183, 192, 206, 0.2);
+    box-shadow: -3px 0 10px 0 rgba(183, 192, 206, 0.2);
+    z-index: 999;
+    border-radius: 4px 4px 0 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.FeedbackBox-body {
+    position: relative;
+    /*padding: 18px;*/
+}
+
+.FeedbackBox-toggler {
+    position: absolute;
+    right: 20px;
+    top: -32px;
+    padding: 5px 15px;
+    border-radius: 4px 4px 0 0;
+    background: #00C764;
+    -webkit-box-shadow: -3px 0 10px 0 rgba(183, 192, 206, 0.2);
+    box-shadow: -3px 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+
+.feedback-open .FeedbackBox {
+    bottom: 0;
+}
+
+.fdbckstar {
+    padding: 15px;
+    text-align:center;
+}
+    .fdbckstar p {
+        color: #ececec !important;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .FdbcBtn {
+        border-top: 1px solid #4d5766;
+        background-color: #3a424d;
+        padding: 15px;
+    }
+
+    .FeedSmily ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .FeedSmily ul li {
+            display: inline-block;
+            height: 40px;
+        }
+
+.FeedBck2Box {
+    position: relative;
+}
+    .FeebDckBoxInn1 > div {
+        display: inline-flex;
+        width: 45%;
+    }
+
+        .FeebDckBoxInn1 > div img {
+            max-height: 30px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .FeebDckBoxInn1 > div a {
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding: 8px;
+            border-radius: 25px;
+        }
+
+            .FeebDckBoxInn1 > div a:hover, .FeebDckBoxInn1 > div a:focus {
+                background-color: #faf9f9;
+            }
+
+        .FeebDckBoxInn1 > div:first-child {
+            border: 2px solid #f22626;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            /*background-color: #f22626;*/
+        }
+
+        .FeebDckBoxInn1 > div:last-child {
+            border: 2px solid #00c764;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            /*background-color: #00c764;*/
+        }
+
+.FeebDckBoxInn2 {
+    /*display:none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #dc4f1b;
+}
+
+    .FeebDckBoxInn2 div {
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
+        display: block;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+
+        .FeebDckBoxInn2 div img {
+            max-width: 38px;
+            max-height: 38px;
+            margin-top: 9px;
+        }
+/*..Fedback end here..*/
